@@ -16,7 +16,32 @@ cut -c 1-3
 Po wklejeniu tekstu terminał wyczyta nam wtedy pierwsze 3 znaki tekstu.
 ![Zdjęcie](https://github.com/ManiekDus/Komendy-Linux-Cut-Sort/blob/main/file.png)
 
-##
+## Flagi
+Plik przykładowy zawiera w sobie:
+```
+Komenda Cut
+Cut Komenda
+```
+- `-c` od słowa 'character', wypisuje nam daną liczbę znaków
+```bash
+$ cut -c 2-3 plik.txt
+om
+ut
+```
+- `-b` od od słowa ‘bytes’, wypisuje nam daną liczbę bytów
+```bash
+$ cut -b 1-2 plik.txt
+Ko
+Cu
+```
+- `-f` od od słowa ‘fields’, wypisuje nam dane pole, na podstawie podanej przez nas liczby. Oryginalnie pola w tekście oddzielane są `tabulatorem`
+```bash
+$ cut -f 2 
+Komenda     Cut
+Cut
+```
+- `-d` od od słowa ‘delimiter’, używany jest do przypisywania innego podzielnika niż tabulator w fladze `-f`
+-  `-s` wypisuje części tekstu w których występuje podzielnik, obecny w fladze `-f`
 
 
 # Komenda Sort 
