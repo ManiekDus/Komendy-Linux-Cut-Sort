@@ -1,7 +1,3 @@
-## p
-cos
-cos
-
 
 # Komenda Cut
 >Print selected parts of lines from each FILE to standard output.
@@ -14,11 +10,13 @@ Tak właśnie komenda **cut** opisana jest przez zawartą w systemie Linux instr
 Tak właśnie komenda "cut" opisana jest przez zawartą w systemie Linux instrukcje.
 ```
 Następnie zastosujmy na niej komendę **cut**.
-```
+```bash
 cut -c 1-3
 ```
 Po wklejeniu tekstu terminał wyczyta nam wtedy pierwsze 3 znaki tekstu.
 ![Zdjęcie](https://github.com/ManiekDus/Komendy-Linux-Cut-Sort/blob/main/file.png)
+
+##
 
 
 # Komenda Sort 
